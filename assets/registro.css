@@ -1,0 +1,96 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+label.logo img{
+  width: 300px;
+  padding-top: 20px;
+}
+nav ul li {
+	opacity: 0;
+}
+nav {
+	box-shadow: 0 10px 15px 5px rgb(0 0 0 / 3%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+}
+.procedimiento {
+	padding-top: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.align-procedimiento .titl {
+	text-align: center;
+	padding: 15px;
+}
+.align-procedimiento .titl .pasos {
+	font-family: Muli,sans-serif;
+}
+.align-procedimiento .titl h1 {
+    font-family: Muli,sans-serif;
+    color: #0a1f44;
+    font-size: 36px;
+    line-height: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0;
+}
+.align-procedimiento .titl .mini {
+	max-width: 600px;
+	text-align: center;
+    font-family: Muli,sans-serif;
+    color: #595964;
+    font-size: 20px;
+    line-height: 1.7em;
+    padding-bottom: 30px;
+    font-weight: 300;
+    max-width: 100%;
+}
+.formulario-god {
+	text-align: left;
+	padding: 15px;
+}
+form label {
+	max-width: 600px;
+	text-align: center;
+    font-family: Muli,sans-serif;
+    color: rgba(0,0,0,0.8);
+    font-size: 20px;
+    line-height: 2em;
+    padding-bottom: 50px;
+    font-weight: 300;
+    max-width: 100%;
+}
+form input {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	padding-left: 10px;
+}
+form input::placeholder {
+	padding-left: 0px;
+	font-size: 15px;
+}
+form input::active {
+	border: 2px solid red;
+}
+form button {
+	margin-top: 20px;
+	background-color: purple;
+	border: 1px solid purple;
+	color: #fff;
+	text-transform: uppercase;
+}
+.contenido  .laboral {
+	font-size: 1rem;
+	padding-top: 10px;
+	color: red;
+	text-transform: uppercase;
+	font-family: Muli,sans-serif;
+	text-align: center;
+}
+form h1 {
+	font-family: Muli,sans-serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

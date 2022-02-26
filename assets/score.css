@@ -1,0 +1,84 @@
+.pad {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Muli,sans-serif;
+}
+.flott {
+	padding-top: 150px;
+	text-align: center;
+}
+.textext {
+	padding-bottom: 20px;
+	color: #0a1f44;
+}
+.central {
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;align-items: center;
+}
+.circulo {
+	border: 5px solid #D2A1B8;
+	border-right: 5px solid #6622CC;
+	border-bottom: 5px solid #6622CC;
+	border-left: 5px solid #6622CC;
+	border-radius: 100%;
+	width: 100px;
+	padding: 50px;
+}
+.tete {
+	padding-left: 20px;
+	font-family: Muli,sans-serif;
+
+}
+.botones {
+	font-family: arial;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.activo {
+	color: rgba(0,0,0,0.78);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #E5C5F0;
+	width: 100%;
+	padding-top: 20px;
+	border-radius: 20px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.uso {
+	color: rgba(0,0,0,0.78);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #F5DBA0;
+	width: 100%;
+	padding-top: 20px;
+	border-radius: 20px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.puntualidad {
+	color: rgba(0,0,0,0.78);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #97C2E7;
+	width: 100%;
+	padding-top: 20px;
+	border-radius: 20px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.debe {
+	font-family: Muli,sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+		margin-top: 30px;
+		margin-bottom: 40px;
+}
